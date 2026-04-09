@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "react-app",           // Базовые правила CRA
+    "react-app/jest",      // Базовые правила CRA для тестов (если используешь)
+    "plugin:prettier/recommended" // Интеграция с Prettier
+  ],
+  "plugins": [
+    "prettier"             // Плагин Prettier
+  ],
+  "rules": {
+    // Здесь можно переопределить или добавить правила ESLint
+    // Пример: "no-console": "warn"
+  }
+}
