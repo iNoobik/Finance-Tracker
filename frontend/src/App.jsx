@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import SignUp from './signUp';
 import SignedUp from './signedUp'
+import SignIn from './signIn';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
 
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/signedUp" element={<SignedUp />} />
-        <Route path="/" element={<Navigate to="/signUp" />} />
+        <Route path="/signIn" element={<SignIn />} />
         <Route path="*" element={<div className="form"><h1>404 - Страница не найдена</h1></div>} />
 
       </Routes>
